@@ -1,3 +1,3 @@
 # collab
 
-bots-go -d /Users/kevinegbert/helloWorld 
+```bots-go -d /Users/kevinegbert/helloWorld ```
