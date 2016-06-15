@@ -1,7 +1,8 @@
 # photocell-synthesis
 Progress towards sound as a product of light...
 
-### get p5bots server (you'll need node / node package manager for this...)
+### get p5bots server
+####(you'll need node / node package manager for this...)
 1. Open Terminal.
 2. Install p5bots-server by running: `npm install -g p5bots-server`
 
