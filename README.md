@@ -28,4 +28,4 @@ Install [node](https://nodejs.org/)
 ### Get p5.js, p5.bots, p5.sound
 1. [Download `p5.js`.](https://github.com/processing/p5.js/releases/download/0.4.8/p5.zip)
 2. [Download `p5.bots`.](https://raw.githubusercontent.com/sarahgp/p5bots/master/lib/p5bots.js)
-3. [Download `p5.bots`.](https://github.com/processing/p5.js-sound)
+3. [Download `p5.sound`.](https://github.com/processing/p5.js-sound)
