@@ -6,11 +6,13 @@
 //   });
 // });
 
+var playMode = 'sustain';
+
 // variable for oscillator to be generated from light sensor...
 var osc, fft;
 
 // setting variable a for audio track a which is c of c minor 13
-var a = new Audio('audio/a.mp3');
+var a = new Audio('audio/j.mp3');
 
 // Board setup — you may need to change the port
 var b = p5.board('/dev/cu.usbmodemFA131', 'arduino');
@@ -19,10 +21,14 @@ var b = p5.board('/dev/cu.usbmodemFA131', 'arduino');
 var pmeter;
 var g_val = 0;
 
+// function preload() {
+//   var a = new Audio('audio/a.mp3');
+// }
+
 function setup() {
   createCanvas(300, 300);
   background(255);
-
+  soundFormats('mp3');
   // OSCILLATOR SETUP
   osc = new p5.TriOsc(); // set frequency and type
   osc.amp(.25);
@@ -69,7 +75,7 @@ function draw() {
   background(255);
 
   var g_val = map(pmeter.val, 0, 1023, 0, 1023);
-  if (g_val < 100) {
+  if (g_val < 300) {
     // noStroke();
     // fill(0, 0, 200, 10);
     ellipse(150, 150, 100, 100);

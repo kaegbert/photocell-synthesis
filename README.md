@@ -13,12 +13,9 @@ Install [node](https://nodejs.org/)
 1. Open Terminal.
 2. Install p5bots-server by running: `npm install -g p5bots-server`
 
+You will need to run the command below in order for your Arduino to work properly with p5. It creates a local server at localhost:8000.
 
 ```bots-go -d YOUR/PATH/GOES/HERE```
-
-##### what to do next...
-
-1. calibrate - cannot rely environment to be stable. Use key commands to "sample" current resistance value and create threshold based of these values...
 
 #### setup details
 
@@ -33,3 +30,10 @@ Install [node](https://nodejs.org/)
 1. [Download `p5.js`.](https://github.com/processing/p5.js/releases/download/0.4.8/p5.zip)
 2. [Download `p5.bots`.](https://raw.githubusercontent.com/sarahgp/p5bots/master/lib/p5bots.js)
 3. [Download `p5.sound`.](https://github.com/processing/p5.js-sound)
+4. [Download `p5.dom`.](https://raw.githubusercontent.com/lmccart/p5.js/master/lib/addons/p5.dom.js)
+
+##### what to do next...
+
+Calibrate - cannot rely environment to be stable. We have multiple options:
+1. Use key commands to "sample" current resistance value and create threshold based of these values...
+2. Use a potentiometer to set relative light in installation location. 
