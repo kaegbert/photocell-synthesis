@@ -9,7 +9,7 @@ Progress towards sound as a product of light...
 ```bots-go -d /Users/kevinegbert/helloWorld ```
 
 ##### project description
-This project uses sarahgp's [p5bots](https://github.com/sarahgp/p5bots)library as well as the p5 sound library to generate a tone based off the value of a photo resistor. The resistance value of the photocell also triggers mp3 samples when a certain threshold is broken.
+This project uses sarahgp's [p5bots](https://github.com/sarahgp/p5bots) library as well as the p5 sound library to generate a tone based off the value of a photo resistor. The resistance value of the photocell also triggers mp3 samples when a certain threshold is broken.
 
 ##### what to do next...
 
