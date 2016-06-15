@@ -1,8 +1,10 @@
 # photocell-synthesis
 Progress towards sound as a product of light...
 
+Install [node](https://nodejs.org/)
+& node package manager...
+
 ### get p5bots server
-(you'll need node / node package manager for this...)
 1. Open Terminal.
 2. Install p5bots-server by running: `npm install -g p5bots-server`
 
@@ -24,7 +26,6 @@ This project uses sarahgp's [p5bots](https://github.com/sarahgp/p5bots) library 
 2. Upload `File > Examples > Firmata > StandardFirmata` to your board. To do this, you'll have to select your board and serial port from the `Tools` menu. ([More instructions from Arduino.](https://www.arduino.cc/en/Guide/MacOSX))
 3. Write down the port your board is using; you may need it later.
 
-Install [node](https://nodejs.org/)
 
 ### Get p5.js, p5.bots, p5.sound
 1. [Download `p5.js`.](https://github.com/processing/p5.js/releases/download/0.4.8/p5.zip)
