@@ -25,6 +25,7 @@ You will need to run the command below in order for your Arduino to work properl
 2. Upload `File > Examples > Firmata > StandardFirmata` to your board. To do this, you'll have to select your board and serial port from the `Tools` menu. ([More instructions from Arduino.](https://www.arduino.cc/en/Guide/MacOSX))
 3. Write down the port your board is using; you may need it later. Note: If you change computers or more likely USB ports, you will need to change your port path in the JavaScript file!
 
+![board port](https://github.com/kaegbert/photocell-synthesis/blob/master/board_port.png "board port")
 
 ### Get p5.js, p5.bots, p5.sound
 1. [Download `p5.js`.](https://github.com/processing/p5.js/releases/download/0.4.8/p5.zip)
