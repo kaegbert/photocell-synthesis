@@ -23,7 +23,7 @@ You will need to run the command below in order for your Arduino to work properl
 
 1. Download the [Arduino IDE](https://www.arduino.cc/en/main/software) if you don't have it...
 2. Upload `File > Examples > Firmata > StandardFirmata` to your board. To do this, you'll have to select your board and serial port from the `Tools` menu. ([More instructions from Arduino.](https://www.arduino.cc/en/Guide/MacOSX))
-3. Write down the port your board is using; you may need it later.
+3. Write down the port your board is using; you may need it later. Note: If you change computers or more likely USB ports, you will need to change your port path in the JavaScript file!
 
 
 ### Get p5.js, p5.bots, p5.sound
